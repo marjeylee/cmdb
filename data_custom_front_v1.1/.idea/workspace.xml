@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6ec0fb24-67bc-4100-8dbf-302c50cffc62" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jIs93KrnMDDnblhNOU25Wa71We" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\html" />
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\css\custom" />
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\js\custom" />
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\resource" />
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ec0fb24-67bc-4100-8dbf-302c50cffc62" name="Default Changelist" comment="" />
+      <created>1603502785250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603502785250</updated>
+      <workItem from="1603502786282" duration="34986000" />
+      <workItem from="1603589715271" duration="25978000" />
+      <workItem from="1603628812351" duration="4542000" />
+      <workItem from="1603671171361" duration="23568000" />
+      <workItem from="1603758124912" duration="23658000" />
+      <workItem from="1604476781063" duration="4015000" />
+      <workItem from="1604558546006" duration="848000" />
+      <workItem from="1604563226453" duration="1090000" />
+      <workItem from="1606100720430" duration="366000" />
+      <workItem from="1606729388904" duration="121000" />
+      <workItem from="1607409435300" duration="4000" />
+      <workItem from="1607476370520" duration="1000" />
+      <workItem from="1607571446022" duration="732000" />
+      <workItem from="1607582528826" duration="50000" />
+      <workItem from="1607671899496" duration="583000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="554" y="98" width="570" height="669" key="find.popup" timestamp="1604563244060">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="554" y="93" width="570" height="638" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1603697977123" />
+    <state x="554" y="98" width="570" height="669" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1604563244060" />
+    <state x="692" y="118" width="566" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603619514832" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1604477974294">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1604477974294" />
+    <state x="498" y="187" width="672" height="565" key="search.everywhere.popup" timestamp="1604558611489">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1603704068719" />
+    <state x="498" y="187" width="672" height="565" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1604558611489" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603513638103" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/index.js</url>
+          <line>416</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

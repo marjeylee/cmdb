@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./js/jquery/jQuery-2.2.0.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="button">dsadsad</button>
+<a href=" http://127.0.0.1:3344/download">dsada</a>
+<script>$(document).ready(function () {
+    $('#button').click()
+})
+
+function downloadFilebyAjax() {
+    console.log("ajaxDownloadDirectly");
+    var url = "http://http://localhost:63342/ajaxDownloadServlet.do";
+    $.ajax({
+        url: url,
+        type: 'post',
+        data: {'fileName': "testAjaxDownload.txt"},
+        success: function (data, status, xhr) {
+            console.log("Download file DONE!");
+            console.log(data); // ajax方式请求的数据只能存放在javascipt内存空间，可以通过javascript访问，但是无法保存到硬盘
+            console.log(status);
+            console.log(xhr);
+            console.log("=====================");
+        }
+    });
+}
+</script>
+</body>
+</html>

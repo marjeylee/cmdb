@@ -1,0 +1,20 @@
+.search_table_div {
+    margin-left: 90%;
+}
+
+tr td {
+    min-width: 100px;
+    max-width: 300px;
+    word-break: break-all;
+    word-wrap: break-word;
+
+}
+
+.bs-checkbox {
+    min-width: 30px;
+}
+
+.table_name_class{font-size: 17px}
+.p_but{
+    margin-left: 4%;
+}

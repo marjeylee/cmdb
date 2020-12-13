@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+
+    <link href="../css/all.css" rel="stylesheet" type="text/css">
+    <link href="../js/bstable/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../js/bstable/css/bootstrap-table.css" rel="stylesheet" type="text/css">
+    <link href="../css/from.css" rel="stylesheet" type="text/css">
+    <link href="../css/custom/create_table.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/custom/base_css.css">
+    <script src="../js/jquery/jQuery-2.2.0.min.js"></script>
+    <script src="../js/layer_v2.1/layer/layer.js"></script>
+    <script src="../js/custom/create_table.js"></script>
+    <script src="../js/custom/server_connection_utility.js"></script>
+</head>
+<body>
+<div style="height: 100%;width: 100%;overflow: auto">
+    <pre style="height: 95%" id="pre_content">
+
+    </pre>
+</div>
+<script>
+    $(document).ready(function () {
+        console.log(window.parent.pre_content)
+        $('#pre_content').html(window.parent.pre_content)
+    })
+</script>
+</body>
+</html>

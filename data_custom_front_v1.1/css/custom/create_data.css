@@ -1,0 +1,29 @@
+thead th {
+    text-align: center;
+}
+
+.table {
+    max-width: 74%;
+    margin-left: 11%;
+}
+
+.table input {
+    height: 32px;
+}
+
+.form_p {
+    margin: auto;
+    max-width: 90%;
+}
+
+.create_column_checkbox_th {
+    width: 20px;
+
+}
+.create_column_checkbox{
+    margin-top: 0;
+}
+.form_p{
+    font-size: 16px;
+    text-align: center;
+}

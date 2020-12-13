@@ -1,0 +1,67 @@
+a {
+    cursor: pointer;
+}
+
+[type=button] {
+    cursor: pointer;
+}
+
+input {
+    font-size: 17px
+}
+
+table {
+    font-size: 17px
+}
+
+table td {
+    text-align: center;
+}
+
+label {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.find_labela {
+    font-size: 15px;
+    position: relative;
+    top: 8px;
+}
+
+#data_search_div p {
+    margin-bottom: 5px;
+}
+
+#data_search_div p label {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #555555;
+}
+
+
+.tab_label {
+    max-width: 200px;
+}
+
+.add_a {
+    font-size: 16px;
+}
+
+tbody tr td {
+
+    vertical-align: middle !important;
+    text-align: center !important;
+    display: table-cell !important;
+}
+
+td pre {
+    cursor: pointer;
+    max-height: 100px !important;
+    text-align: initial !important;
+}
+td textarea{
+    height: 200px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<head>
+    <link href="../css/all.css" rel="stylesheet" type="text/css">
+    <link href="../js/bstable/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="../js/bstable/css/bootstrap-table.css" rel="stylesheet" type="text/css">
+    <link href="../css/from.css" rel="stylesheet" type="text/css">
+    <link href="../css/custom/create_table.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/custom/base_css.css">
+    <script src="../js/jquery/jQuery-2.2.0.min.js"></script>
+    <script src="../js/layer_v2.1/layer/layer.js"></script>
+    <script src="../js/custom/create_table.js"></script>
+    <script src="../js/custom/server_connection_utility.js"></script>
+</head>
+<body>
+<div class="div_form">
+    <h1 class="h1_style"><i class="i_h1"></i>新增表单</h1>
+
+    <p class="form_p">
+        <label class="form_label">表名：</label>
+        <input type="text" class="form_input " id="table_name_input" name="name"
+               placeholder="  内容不包括空格、不能仅为数字，最长不超过64个字符，可输入特殊字符包含！- —_ ，。”‘">
+    </p>
+    <p class="form_p">
+        <label class="form_label">表备注：</label>
+        <input type="text" class="form_input " id="table_comment" name="name">
+    </p>
+    <table class="table">
+        <thead>
+        <tr>
+            <th></th>
+            <th>列名</th>
+            <th>数据类型</th>
+            <th>注释</th>
+        </tr>
+        </thead>
+        <tbody id="create_column_tbody">
+        <tr>
+            <th class="create_column_checkbox_th"><input type="checkbox" style="margin-top: 0"
+                                                         class="create_column_checkbox"/></th>
+            <td><input style="width: 100%" type="text" name="column_content"/></td>
+            <td><select class="form_input" name="column_type">
+                <option value="text">文本</option>
+                <option value="textarea">多行文本</option>
+                <option value="number">数字</option>
+                <option value="date">时间</option>
+            </select></td>
+            <td><input style="width: 100%" type="text" name="column_comment"/></td>
+        </tr>
+        </tbody>
+    </table>
+    <p class="but_p">
+        <input type="submit" id="create_new_column_btn" value="添加字段" class="but_save"/>
+        <input type="submit" id="delete_column_btn" value="删除字段" class="but_save"/>
+        <input type="submit" id="save_table_btn" value="保存" class="but_save"/>
+        <input type="button" id="cancel_btn" value="取消" class="but_close">
+    </p>
+
+
+</div>
+<script>
+</script>
+</body>
+</html>

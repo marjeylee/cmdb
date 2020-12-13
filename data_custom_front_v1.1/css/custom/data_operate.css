@@ -1,0 +1,22 @@
+.search_button_p_tag {
+    margin-left: 80%;
+}
+
+#data_search_div {
+    position: relative;
+}
+
+#data_search_div {
+    margin-left: 5%;
+}
+.datetime_select{
+    width: 16%;
+    height: 25px;
+    font-size: 15px;
+}
+#data_search_div{
+    color: #2c82c9;;
+}
+#data_search_div label{
+    text-align: center;
+}

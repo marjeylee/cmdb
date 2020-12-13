@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>html 表格导出道</title>
+    <script src="../js/jquery_3.2.1.js"></script>
+    <script src="../js/table_to_excel.js"></script>
+    <script language="JavaScript" type="text/javascript">
+        $(document).ready(function () {
+            $("#btnExport").click(function () {
+                $("#tableExcel").table2excel({
+                    exclude: ".noExl", //过滤位置的 css 类名
+                    filename: new Date().getTime() + ".xls", //文件名称
+                    name: "Excel Document Name.xlsx",
+                    exclude_img: true,
+                    exclude_links: true,
+                    exclude_inputs: true
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+</div>
+<div id="myDiv">
+<textarea id="qweasd" rows="3" cols="50">
+
+</textarea>
+    <input>
+    <button id="tableExcel1"></button>
+</div>
+<pre id="qweqweqwe"></pre>
+<script>
+    $(document).ready(function () {
+        $('#qweqweqwe').append('在w3school，你可以找到你所需要的所有的网\n' +
+            '    dsad\n' +
+            '    dqwd\n' +
+            '    dsad站建设教程。')
+        $('#tableExcel1').click(function () {
+            console.log($('#qweasd').val())
+        })
+    })
+
+
+</script>
+</body>
+</html>
