@@ -15,6 +15,7 @@ import json
 from flask import Flask, request, send_file, make_response
 from flask_cors import cross_origin, CORS
 
+from db_operate.login_process import LOGIN_PROCESSOR
 from interface.data_inference import DataInterface
 from interface.download_inference import DownloadInference
 from interface.table_inference import TableInterface
@@ -148,6 +149,22 @@ def file_download():
     response = make_response(send_file(combine_file_path('gen/' + file_name)))
     response.headers["Content-Disposition"] = "attachment; filename={};".format('export.' + 'xls')
     return response
+
+
+@cross_origin()
+@app.route("/valid_login_info", methods=['POST'])
+def valid_login_info():
+    data = str(request.data, encoding='utf8')
+    res = LOGIN_PROCESSOR.check_login_success(json.loads(data))
+    return str(res)
+
+
+@cross_origin()
+@app.route("/check_cookies_valid", methods=['POST'])
+def check_cookies_valid():
+    data = str(request.data, encoding='utf8')
+    res = LOGIN_PROCESSOR.check_cookies_valid(json.loads(data))
+    return str(res)
 
 
 if __name__ == "__main__":

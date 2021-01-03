@@ -7,6 +7,7 @@
  *  Under MIT License
  */
 //table2excel.js
+
 ;(function ( $, window, document, undefined ) {
     var pluginName = "table2excel",
 

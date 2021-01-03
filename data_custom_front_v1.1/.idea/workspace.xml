@@ -10,9 +10,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -25,20 +25,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/login" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\resource" />
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\js\login" />
       <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\html" />
       <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\css\custom" />
       <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\js\custom" />
-      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1\resource" />
       <recent name="D:\code\fd\svn_code\cmdb\data_custom_front_v1.1" />
     </key>
   </component>
@@ -65,6 +66,11 @@
       <workItem from="1607571446022" duration="732000" />
       <workItem from="1607582528826" duration="50000" />
       <workItem from="1607671899496" duration="583000" />
+      <workItem from="1607908021268" duration="4000" />
+      <workItem from="1607991646943" duration="26000" />
+      <workItem from="1609074473434" duration="353000" />
+      <workItem from="1609115838391" duration="615000" />
+      <workItem from="1609116463709" duration="720000" />
     </task>
     <servers />
   </component>
