@@ -1,4 +1,5 @@
-SERVER_IP = '127.0.0.1:3344'
+// SERVER_IP = '127.0.0.1:3344'
+SERVER_IP = '192.168.249.17:3344'
 // SERVER_IP = '188.8.6.11:3344'
 jQuery.support.cors = true;
 
